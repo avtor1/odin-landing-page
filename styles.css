@@ -1,3 +1,29 @@
+#top-section {
+    background: #0f1226;
+
+}
+
+.top {
+    display: inline-flex;
+    margin-bottom: 70px;
+}
+
+.logo {
+    display: flex;
+    justify-content: left;
+    color: #e9f0f7;
+    margin-right: 650px;
+    margin-left: 135px;
+}
+
+.top-link {
+    float: right;
+    color: #b9b9b9;
+    margin-right: 15px;
+}
+
+
+
 .image {
     width: 300px;
     height: 150px;
@@ -8,6 +34,134 @@
 overflow: hidden;
 }
 
+
+
 .header {
     float: left;
 }
+
+.h1 {
+    margin-bottom: 20px;
+    width: 400px;
+    height: 60px;
+    color: #e9f0f7;
+    margin-left: 135px;
+    font-size: 29px;
+}
+
+.paragraph {
+    display: flex;
+    flex: 1;
+    text-align: justify;
+    width: 400px;
+    height: 60px;
+    margin: 0%;
+    margin-right: 20px;
+    margin-left: 130px;
+    color: #b9b9b9;
+    font-size: 14px;
+    margin-bottom: 0%;
+}
+
+.sign-up {
+    margin-top: 0%;
+    margin-left: 135px;
+    background-color: #247edd;
+    border-color: #247edd;
+    border-radius: 4px;
+    width: 69px;
+    color: #e9f0f7;
+}
+
+
+
+.h2 {
+    text-align: center;
+}
+
+.image {
+   display: flex;
+   justify-content: center;
+   width: auto;
+   margin-bottom: 0%;
+   height: auto;
+}
+
+.image-1,
+.image-2,
+.image-3,
+.image-4 {
+    border: 2px solid #247edd;
+    width: 100px;
+    height: 100px;
+    border-radius: 8px;
+    margin-bottom: 0%;
+    padding-bottom: 0px;
+
+}
+
+.image-1 {
+    margin-right: 25px;
+}
+
+.image-2 {
+    margin-right: 25px;
+}
+
+.image-3 {
+    margin-right: 25px;
+}
+
+.subtext {
+    display: flex;
+    justify-content: center;
+    margin-top: 0%;
+    margin-left: 50px;
+    width: 1280px;
+}
+
+
+.subtext-1,
+.subtext-2,
+.subtext-3 {
+    font-size: 8px;
+    display: block;
+    margin-top: 0px;
+    width: 100px;
+    height: 100px;
+    margin-top: 0%;
+}
+
+
+.subtext-1 {
+    margin-right: 30px;
+}
+
+.subtext-2 {
+    margin-right: 30px;
+}
+
+.subtext-3 {
+    margin-right: 30px;
+}
+
+
+.quote {
+    width: auto;
+    height: 300px;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+}
+
+.quote-text {
+    width: 700px;
+    height: 100px;
+}
+
+.author {
+    width: 150px;
+   text-align: right;
+   margin-left: 550px;
+   font-size: 12px;
+   font-weight: 700;
