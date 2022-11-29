@@ -79,12 +79,13 @@ overflow: hidden;
     text-align: center;
 }
 
-.image {
+.image-m {
    display: flex;
    justify-content: center;
    width: auto;
    margin-bottom: 0%;
    height: auto;
+   overflow: hidden;
 }
 
 .image-1,
