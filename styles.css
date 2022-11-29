@@ -153,11 +153,15 @@ overflow: hidden;
     text-align: left;
     display: flex;
     justify-content: center;
+    background-color: #dddbdd;
+    margin-bottom: 100px;
 }
 
 .quote-text {
     width: 700px;
     height: 100px;
+    top: 50%;
+    margin-top: 105px;
 }
 
 .author {
@@ -166,3 +170,75 @@ overflow: hidden;
    margin-left: 550px;
    font-size: 12px;
    font-weight: 700;
+}
+
+.promotion {
+    width: 700px;
+    height: 100px;
+    background-color: #247edd;
+    border-color: #247edd;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+
+
+.button {
+    width: 80px;
+    height: 24px;
+    margin-left: 500px;
+    background-color: #247edd;
+    overflow: hidden;
+    position:relative;
+    top: 40%;
+}
+
+.button-2 {
+    background-color: #247edd;
+    border-radius: 6px;
+    color: #ffffff;
+    width: 80px;
+    height: 24px;
+    overflow: hidden;
+    position:relative;
+
+}
+
+
+.pm-1 {
+    width: 200px;
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 700;
+    padding-top: 20px;
+    margin-bottom: 0%;
+
+    clear: left;
+    float: left;
+}
+
+.pm-2 {
+    width: 350px;
+    margin-top: 0%;
+    font-size: 10px;
+    color :#dddbdd;
+    font-weight: 500px;
+
+    clear: left;
+    float: left;
+}
+
+.bottom-section {
+    width: auto;
+    height: 80px;
+    background-color: #070c17;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+}
+
+.copyright {
+    top: 15%;
+    position: relative;
+}
